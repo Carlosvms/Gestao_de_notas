@@ -1,6 +1,6 @@
-## Meu Projeto de Notas (Estágio Dev)
+## Meu Projeto de Notas
 
-Olá! Aqui está o código do projeto que desenvolvi para o processo seletivo. É um sistema simples para ajudar o Professor Carlos a gerenciar as notas e a frequência dos alunos.
+Olá! Aqui está o código do projeto que desenvolvi para Gestão de notas. É um sistema simples para ajudar o Professor Carlos a gerenciar as notas e a frequência dos alunos.
 
 Usei **React** para o Front-end e **Python(Flask)** para os cálculos(Back-end).
 
@@ -57,7 +57,7 @@ Tomei algumas decisões para manter o projeto o mais simples possível:
 | Ponto | Decisão/Premissa | O que significa |
 | :--- | :--- | :--- |
 | **Persistência** | Dados guardados **só na memória**. | Se você fechar o `app.py`, os dados de alunos somem. |
-| **Tecnologias** | Usei **Flask** e **React** sem bibliotecas extras. | Foco total no código central do teste. |
+| **Tecnologias** | Usei **Flask** e **React**. | Foco total no código central. |
 | **Lógica** | O Python (`app.py`) faz **todos os cálculos**. | O Front-end só manda os dados e mostra o resultado. |
 | **Alunos** | O **nome** é a chave única. | Se você inserir um nome já existente, os dados antigos serão atualizados. |
 
@@ -65,7 +65,7 @@ Tomei algumas decisões para manter o projeto o mais simples possível:
 
 ### Funcionalidades Chave
 
-O sistema faz o que foi pedido no desafio:
+O que o sistema faz?
 
 1.  Permite inserir o nome, 5 notas (0-10) e a frequência (0-100%).
 2.  Calcula a média de notas e a frequência geral de cada aluno.
